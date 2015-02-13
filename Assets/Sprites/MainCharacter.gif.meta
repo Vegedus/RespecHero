@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 3d083b1d8ae83524badd0aa47d38df61
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WalkSouth1
+    21300002: WalkSouth2
+    21300004: WalkSouth3
+    21300006: WalkNorth1
+    21300008: WalkNorth2
+    21300010: WalkNorth3
+    21300012: WalkSide1
+    21300014: WalkSide2
+    21300016: WalkSide3
+    21300018: Kneel
+    21300020: Ready
+    21300022: Hurt
+    21300024: BattleSide
+    21300026: Attack
+    21300028: Cheer2
+    21300030: Cheer3
+    21300032: Spell1
+    21300034: Spell2
+    21300036: Collapsed
+    21300038: ClosedEyesFront1
+    21300040: Wink
+    21300042: ClosedEyesSide
+    21300044: ThrowFront
+    21300046: ThrowBack
+    21300048: Mad
+    21300050: HeadClapFront1
+    21300052: HeadClapFront2
+    21300054: HeadClapBack1
+    21300056: HeadClapBack2
+    21300058: Laugh1
+    21300060: Laugh2
+    21300062: Surprise
+    21300064: ClosedEyesFront2
+    21300066: LookDownBack
+    21300068: StareDown
+    21300070: StareSide
+    21300072: NoNo1
+    21300074: NoNo2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 13
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WalkSouth1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkSouth2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 119
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkSouth3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 119
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkNorth1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 119
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkNorth2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 119
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkNorth3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 119
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkSide1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 119
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkSide2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 119
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkSide3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 90
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kneel
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 90
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ready
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 90
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 90
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BattleSide
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 90
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 90
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cheer2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 90
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cheer3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 90
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spell1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spell2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 61
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Collapsed
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 61
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClosedEyesFront1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 61
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wink
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 61
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClosedEyesSide
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 61
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ThrowFront
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 61
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ThrowBack
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 61
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mad
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 30
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeadClapFront1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 30
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeadClapFront2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 30
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeadClapBack1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 30
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeadClapBack2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 30
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Laugh1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 30
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Laugh2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 30
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Surprise
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 30
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClosedEyesFront2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LookDownBack
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: StareDown
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: StareSide
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NoNo1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NoNo2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: Character
+  userData: 

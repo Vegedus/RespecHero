@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 57ad0078282f08247b06fcb138d8a52d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - barEmpty: {fileID: 2800000, guid: 590667d991a5fda4eb5545f241b7bbcc, type: 3}
+  - barFull: {instanceID: 0}
+  - fullnessObject: {fileID: 100000, guid: c9c94379c998fc043b1de569c25484cc, type: 2}
+  - fullnessScript: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
