@@ -5,7 +5,7 @@ using UnityEditor;
 using System.Reflection;
 
 [ExecuteInEditMode]
-public class TextDynamicSpriteGUI : TextureGUIAbstract
+public class TextDynamicSpriteGUI : MonoBehaviour
 {
     //public int orgScale = 15;
  
@@ -58,15 +58,7 @@ public class TextDynamicSpriteGUI : TextureGUIAbstract
         //print("j " + intLetter);
         //print(textureIndex);
 
-        Rescale();
         return textSprites[textureIndex];
     }
 
-    public override void Rescale()
-    {
-        //Sprite renders aren't GUI objects, so they're in world cordinates.
-        //"Viewport" is the relative position, from 0,0 to 1,1.
-        transform.position = Camera.main.ViewportToWorldPoint(
-            new Vector3(relativePosition.x, relativePosition.y, 30)) + new Vector3(offsetX, 0, 0) ;
-    }
 }
