@@ -8,8 +8,6 @@ public class GUI_Static : MonoBehaviour{
 	//private static Vector2 currentResolution;
 	private static Camera mainCamera = Camera.main;
 
-    private static int a  = 5;
-
 	public static Vector2 getWorldPosition( Transform textureTransform, GUITexture textureComponent ){
 		return mainCamera.ScreenToWorldPoint( textureTransform.position );
 	}
