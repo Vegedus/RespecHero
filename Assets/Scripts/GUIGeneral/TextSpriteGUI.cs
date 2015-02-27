@@ -5,39 +5,30 @@ using UnityEditor;
 using System.Reflection;
 
 [ExecuteInEditMode]
-public class TextDynamicSpriteGUI : MonoBehaviour
+public class TextSpriteGUI : MonoBehaviour
 {
-    //public int orgScale = 15;
- 
-    //public Vector2 relativePosition;
-    //public float offsetX;
+    public char letter = '0';
 
     public Sprite textSheet;
-    public GameObject textObject; //The object that contains the variable of the letterType to be shown
 
     protected Sprite[] textSprites;
-
-    protected MonoBehaviour charScript;
-    protected PropertyInfo charVariable;
-
     protected SpriteRenderer currentSprite;
-    public float letter;
 
-    void Awake() 
+    void Start()
     {
-        charScript = textObject.GetComponent<MonoBehaviour>();
-        charVariable = charScript.GetType().GetProperty("guiChar");
+        print(letter);
 
         currentSprite = GetComponent<SpriteRenderer>();
 
         string spriteSheet = AssetDatabase.GetAssetPath(textSheet);
         textSprites = AssetDatabase.LoadAllAssetsAtPath(spriteSheet).OfType<Sprite>().ToArray();
-    }
 
-    void OnGUI()
-    {
-        letter = (float)charVariable.GetValue(charScript, null);
-        currentSprite.sprite = GetSpriteLetter((char)letter);
+        //print((int)'0'); //48
+        //print((int)'A'); //65
+        //print((int)'letterScript'); //97
+        //26+26+10
+
+        currentSprite.sprite = GetSpriteLetter(letter);
     }
 
     protected Sprite GetSpriteLetter(char letter)
@@ -53,9 +44,5 @@ public class TextDynamicSpriteGUI : MonoBehaviour
 
         return textSprites[textureIndex];
     }
-}
 
-//print((int)'0'); //48
-//print((int)'A'); //65
-//print((int)'letterScript'); //97
-//26+26+10
+}

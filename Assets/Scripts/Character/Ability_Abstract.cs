@@ -31,7 +31,7 @@ public abstract class Ability_Abstract : Ability_Interface {
         {
             
             abilityManager.timer.actionPoints -= actionPointCost;
-            Debug.Log(abilityManager.timer.actionPoints + " a");
+            Debug.Log(abilityManager.timer.actionPoints + " letterScript");
             return true;
         }
         return false;

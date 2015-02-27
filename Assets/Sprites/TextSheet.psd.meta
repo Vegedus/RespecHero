@@ -1,6 +1,79 @@
 fileFormatVersion: 2
 guid: 45f2eb7775c85d047828424b74560a52
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: TextSheet_0
+    21300002: TextSheet_1
+    21300004: TextSheet_2
+    21300006: TextSheet_3
+    21300008: TextSheet_4
+    21300010: TextSheet_5
+    21300012: TextSheet_6
+    21300014: TextSheet_7
+    21300016: TextSheet_8
+    21300018: TextSheet_9
+    21300020: TextSheet_10
+    21300022: TextSheet_11
+    21300024: TextSheet_12
+    21300026: TextSheet_13
+    21300028: TextSheet_14
+    21300030: TextSheet_15
+    21300032: TextSheet_16
+    21300034: TextSheet_17
+    21300036: TextSheet_18
+    21300038: TextSheet_19
+    21300040: TextSheet_20
+    21300042: TextSheet_21
+    21300044: TextSheet_22
+    21300046: TextSheet_23
+    21300048: TextSheet_24
+    21300050: TextSheet_25
+    21300052: TextSheet_26
+    21300054: TextSheet_27
+    21300056: TextSheet_28
+    21300058: TextSheet_29
+    21300060: TextSheet_30
+    21300062: TextSheet_31
+    21300064: TextSheet_32
+    21300066: TextSheet_33
+    21300068: TextSheet_34
+    21300070: TextSheet_35
+    21300072: TextSheet_36
+    21300074: TextSheet_37
+    21300076: TextSheet_38
+    21300078: TextSheet_39
+    21300080: TextSheet_40
+    21300082: TextSheet_41
+    21300084: TextSheet_42
+    21300086: TextSheet_43
+    21300088: TextSheet_44
+    21300090: TextSheet_45
+    21300092: TextSheet_46
+    21300094: TextSheet_47
+    21300096: TextSheet_48
+    21300098: TextSheet_49
+    21300100: TextSheet_50
+    21300102: TextSheet_51
+    21300104: TextSheet_52
+    21300106: TextSheet_53
+    21300108: TextSheet_54
+    21300110: TextSheet_55
+    21300112: TextSheet_56
+    21300114: TextSheet_57
+    21300116: TextSheet_58
+    21300118: TextSheet_59
+    21300120: TextSheet_60
+    21300122: TextSheet_61
+    21300124: TextSheet_62
+    21300126: TextSheet_63
+    21300128: TextSheet_64
+    21300130: TextSheet_65
+    21300132: TextSheet_66
+    21300134: TextSheet_67
+    21300136: TextSheet_68
+    21300138: TextSheet_69
+    21300140: TextSheet_70
+    21300142: TextSheet_71
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

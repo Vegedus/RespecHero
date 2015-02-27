@@ -8,7 +8,7 @@ public class ReferenceTests : MonoBehaviour {
 	void Start () {
 
 		//StatsPlayer statsPlayer = GameObject.Find("PlayerManager").GetComponent<StatsPlayer>();
-		//StatsPlayer.Test.a = 1;
+		//StatsPlayer.Test.letterScript = 1;
 		
 		//print(StatsPlayer.Name.attack);
 		//GUI_Static.
