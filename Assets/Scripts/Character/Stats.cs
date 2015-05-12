@@ -62,7 +62,6 @@ public class Stats : MonoBehaviour
 	private void updateAllCurrent(){
 		for(int i = 0; i < attributes.Length; i++){
 			attributes[i].current = (float)attributes[i].effective * attributes[i].modifier;
-			
 		}
 		checkRemaining();
 	}

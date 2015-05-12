@@ -1,11 +1,10 @@
 ﻿public enum AttributeName
 {
+    life,
+    mana,
     attack,
     pierce,
-    mana,
     magic,
-    life,
     defense,
-    speed,
-    reaction
+    speed
 }
