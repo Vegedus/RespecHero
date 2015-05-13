@@ -23,9 +23,9 @@ public class ActionTimer : MonoBehaviour
 
     public Stats stats;
 
-    void Start()
+    void Awake()
     {
-        GetComponent<Stats>();
+        //GetComponent<Stats>();
         stats = transform.parent.GetComponentInChildren<Stats>();
     }
 

@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using UnityEngine.Events;
 
 //[ExecuteInEditMode]
 [Serializable]
 public class Stats : MonoBehaviour
 {
-
+    //Could be done with polymorphism instead (Speed : Attribute)
 	public Attribute[] attributes = {
 		new Attribute (getAttribNameString (0),5),
 		new Attribute (getAttribNameString (1),5),
@@ -20,13 +21,22 @@ public class Stats : MonoBehaviour
 	public int power = 1;
 	public float remainingLife = 10;
 	public float remainingMana = 10;
-	
+
+    [Serializable]
+    public class StatEvent : UnityEvent<String>{};
+    public StatEvent onStatChange;
+
 	//Make sure the stats are correct when created
 	public void Awake(){
 		updateAllEffective();
 		remainingLife = attributes[(int)AttributeName.life].current;
 		remainingMana = attributes[(int)AttributeName.mana].current;
 	}
+
+    public void Start()
+    {
+        onStatChange.Invoke("5231");
+    }
 	
 	public static string getAttribNameString (int enumIndex){
 		return ((AttributeName)enumIndex).ToString ();
@@ -67,6 +77,7 @@ public class Stats : MonoBehaviour
 	}
 
     //Gui related
+    public float powerGUI { get { return power; } }
     public float lifeFullness { get { return remainingLife / attributes[(int)AttributeName.life].current; } }
     public float manaFullness { get { return remainingMana / attributes[(int)AttributeName.mana].current; } }
 	
